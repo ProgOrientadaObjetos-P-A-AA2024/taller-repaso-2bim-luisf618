@@ -36,8 +36,8 @@ public class Comprador {
 
     @Override
     public String toString() {
-        String cadena = String.format("Propietario:\nNombre: %s\nCedula: %s\n",
-                nombres, cedula);
+        String cadena = String.format("Propietario:\n\tNombre: %s\n\tCedula: "
+                + "%s", nombres, cedula);
         return cadena;
     }
 

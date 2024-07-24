@@ -53,7 +53,7 @@ public abstract class Auto {
 
     @Override
     public String toString() {
-        String cadena = String.format("%s\nMarca: %s\nPrecio Base: %.2f\n",
+        String cadena = String.format("%s\nMarca: %s\nPrecio Base: %.2f",
                 propietario, marca, precioBase);
         return cadena;
     }

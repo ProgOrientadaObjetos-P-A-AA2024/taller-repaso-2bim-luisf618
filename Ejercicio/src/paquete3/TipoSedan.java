@@ -55,8 +55,8 @@ public class TipoSedan extends Auto {
     public String toString() {
         String cadena = String.format("Tipo Sedan\n%s\nPorcentaje de "
                 + "descuento: %.2f\nDescuento: %.2f\nSeguro de mecanico: "
-                + "%.2f\n", super.toString(), porcentajeDescuento, descuento,
-                seguro);
+                + "%.2f\nPrecio Final: %.2f\n", super.toString(),
+                porcentajeDescuento, descuento, seguro, precioFinal);
         return cadena;
     }
 
