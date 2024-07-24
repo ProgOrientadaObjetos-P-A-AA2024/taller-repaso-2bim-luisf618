@@ -50,10 +50,10 @@ public abstract class Auto {
     }
 
     public abstract void establecerPrecioFinal();
-    
+
     @Override
     public String toString() {
-        String cadena = String.format("%s\nMarca: %s\nPrecio Base: %.2f\n", 
+        String cadena = String.format("%s\nMarca: %s\nPrecio Base: %.2f\n",
                 propietario, marca, precioBase);
         return cadena;
     }

@@ -33,7 +33,7 @@ public class Comprador {
     public void establecerCedula(String x) {
         cedula = x;
     }
-    
+
     @Override
     public String toString() {
         String cadena = String.format("Propietario:\nNombre: %s\nCedula: %s\n",
